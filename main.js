@@ -16,7 +16,7 @@ function resultValues() {
     if (firstValue && secondValue) {
         randoMaizer(firstValue, secondValue);
     } else {
-        let error = '<div class="result error">Введите ваш диапозон</div>'
+        let error = '<div class="result error">Введите ваш диапозон!</div>'
         subContainer.insertAdjacentHTML('beforeend', error)
     }
 };
