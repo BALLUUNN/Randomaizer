@@ -1,0 +1,88 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: url('./Без\ названия.gif') no-repeat center;
+    background-size: cover;
+    margin:0;
+}
+.intro {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.container {
+    height: 550px;
+    width: 400px;
+    background: rgb(5,63,205);
+    background: linear-gradient(90deg, rgba(5,63,205,1) 0%, rgba(129,84,158,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.randomName {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.startIndex {
+    margin-bottom: 50px;
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.endIndex {
+    font-size: 18px;
+    margin-bottom: 50px;
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.result {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 35px;
+}
+.result.error {
+    margin-top: 45px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.takeResult {
+    position: absolute;
+    bottom: 15%;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: blue;
+    font-size: 20px;
+    transition: .2s linear;
+}
+.takeResult:hover {
+    color: #fff;
+    background-color: blue;
+}
+.yourNum {
+    font-size: 20px;
+    text-align: center;
+}
+.firstLabel {
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+.secondLabel {
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
